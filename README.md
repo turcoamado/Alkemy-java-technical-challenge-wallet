@@ -23,7 +23,7 @@
 - If you add a new endpoint, make sure to set the role access for it in the SecurityConfig class.
 
 
-You will find an example of how to work with the project architecture in architecture-example branch.
+You will find an example of how to work with the project architecture in `architecture-example` branch.
 
 ### GIT STANDARDS
 
