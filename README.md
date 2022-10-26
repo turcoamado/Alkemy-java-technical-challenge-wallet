@@ -39,6 +39,14 @@ You will find an example of how to work with the project architecture in `archit
 - If you do not write unit test or integration test as part of your code changes, you should add the HTTP request and response as evidence that the code is working as expected.
 - Screenshots from Postman with different scenarios are a good way to show your work.
 
+#### BRANCHES
+In the current repository you will see three diferent branches
+- `master` -> this branch is only for productive versions, it has official release history.
+- `develop` -> this branch serves as an integration branch for features. All features must start from this branch and after it's finished it gets merged back into develop.
+- `architecture-example` -> in this branch you will find an example of a suggested architecture. You can take it as a reference but you should not modify it. 
+
+For understanding more about git and how to work with different branches, I recommend to read about Gitflow workflow. [Here](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) you have a little explanation that can serve as introduction.
+
 ### RUN LOCALLY
 On the root folder run:
 ```
